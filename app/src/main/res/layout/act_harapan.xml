@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/berdoa"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="576dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text=" DOA HARAPAN\n Allah, Bapa di surga, kasih setia-Mu kekal abadi. Engkaulah tumpuan hidup dan harapan.\nTanamkanlah dalam hatiku perharapan yang teguh akan kasih dan kebaikan-Mu; \npengharapan yang menjiwai seluruh hidup Putra-Mu Yesus Kristus. \nBerikanlah aku pengharapan yang kuat karena yakin bahwa Engkau selalu besertaku.\n
+Semoga aku selalu menyadarkan diri kepada-Mu dalam suka dan duka. Aku mohon pengharapan yang teguh supaya aku tidak mudah putus asa dalam penderitaan dan kekecewaan.\n
+ Bapa, semoga pengharapan yang kuat selalu menjiwai seluruh hidupku. Dalam pengharapan itu aku akan membangun hidup dan masa depanku. Dalam pengharapan itu pula aku percaya akan memperoleh hidup abadi bersama Engkau. \n
+ Ya Allah, teguhkanlah pengharapanku. (Amin.)"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

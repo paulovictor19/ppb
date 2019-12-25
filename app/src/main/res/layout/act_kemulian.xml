@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:layout_width="395dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/app"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="355dp"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:padding="20sp"
+            android:paddingTop="6dp"
+            android:text=" KEMULIAAN\nKemuliaan kepada Bapa dan Putera dan Roh Kudus.  Seperti pada permulaan, sekarang selalu dan sepanjang segala abad. Amin. \n."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

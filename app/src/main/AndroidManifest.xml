@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doakatolik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".profile"></activity>
+        <activity android:name=".antonius" />
+        <activity android:name=".tadeus" />
+        <activity android:name=".lourdes" />
+        <activity android:name=".medaliwasiat" />
+        <activity android:name=".hatikudus" />
+        <activity android:name=".minggu" />
+        <activity android:name=".kamis" />
+        <activity android:name=".Selasa" />
+        <activity android:name=".senin" />
+        <activity android:name=".malam" />
+        <activity android:name=".pagi" />
+        <activity android:name=".credo" />
+        <activity android:name=".kemulian" />
+        <activity android:name=".salammaria" />
+        <activity android:name=".salib" />
+        <activity android:name=".sakit" />
+        <activity android:name=".perjalanan" />
+        <activity android:name=".cintakasih" />
+        <activity android:name=".harapan" />
+        <activity android:name=".About" />
+        <activity android:name=".Novena" />
+        <activity android:name=".Rosario" />
+        <activity android:name=".Doalain" />
+        <activity android:name=".Doautama" />
+        <activity android:name=".act_menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

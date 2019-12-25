@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/thaddeus"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="455dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text=" YUDA TADEUS\n  Rasul yang amat suci Santo Yudas Tadeus, Pelayan dan sahabat Yesus yang setia, Gereja semesta menghormati dan memohon padamu, sebagai penolong dari masalah-masalah yang tampaknya tidak ada jalan keluarnya.
+Doakanlah aku, karena aku merasa sendirian dan tidak mempunyai penolong. aku mohon padamu gunakanlah kekuatan khusus yang diberikan kepadamu untuk memberikan kepadaku bantuan nyata dan sesegera mungkin disaat aku merasa bahwa bantuan itu hampir tidak ada.  "
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+</ScrollView>

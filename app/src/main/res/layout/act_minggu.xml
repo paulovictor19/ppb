@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:layout_width="432dp"
+            android:layout_height="198dp"
+            android:background="@drawable/rosa"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="452dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text=" Minggu+ Rabu\n  a.   Yesus bangkit dari mati.\n
+b.   Yesus naik ke surga.\n
+c.   Roh Kudus turun atas para rasul\n
+d.   Maria diangkat kesurga.\n
+e.   Maria dimahkotai di surga. \n  Tata Cara Berdoa Rosario :\n
+o   Aku percaya\n
+o   Kemuliaan\n
+o   Bapa kami\n
+o   Salam, Puteri Allah Bapa-Salam Maria\n
+o   Salam, Bunda Allah Putera-Salam Maria\n
+o   Salam, mempelai Allah Roh Kudus–Salam Maria\n
+o Terpujilah keluarga kudus Yesus, Maria dan Yoseph. Sampai selama-lamanya.."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

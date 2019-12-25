@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ABOUT"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="355dp"
+            android:layout_height="303dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="1.Menu  Doa Utama berisi tentan  doa sehari hari\n
+2.Menu Doa Lain berisi tentan Doa iman dan doa harapan\n
+3.Menu Rosariu tentan doa sehari hari\n
+4.Menu novena berisi kepada bunda maria\n
+5.Menu About Tentan Program\n
+6.Menu Kembali tentan berisi kembali ke login"
+            android:textSize="9pt"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

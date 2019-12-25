@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/ter"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="371dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text=" DOA PERJALANAN\n Ya Allah, semoga perjalanan ini mengingatkan kami akan perjalanan ke tanah air abadi. Semoga dalam ziarah hidup ini kami selalu tekun, tabah, dan setia. Semoga kami tiba dengan aman sentosa pada tujuan perjalanan hidup setiap insan, yakni Yesus Kristus, Tuhan kami."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

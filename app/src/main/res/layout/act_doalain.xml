@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DOA LAIN"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal"/>
+        <Button
+            android:id="@+id/btnDoaharapan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Doa Harapan"
+            android:gravity="left"
+            android:background="#b7b9f7"
+            android:textSize="9pt"
+            android:textStyle="normal"/>
+        <Button
+            android:id="@+id/btnDoacintakasih"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Doa Cinta Kasih"
+            android:gravity="left"
+            android:background="#b7b9f7"
+            android:textStyle="normal"
+            android:textSize="9pt"/>
+        <Button
+            android:id="@+id/btnDoaperjalanan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Doa Perjalanan"
+            android:gravity="left"
+            android:background="#b7b9f7"
+            android:textStyle="normal"
+            android:textSize="9pt"/>
+        <Button
+            android:id="@+id/btnDoasakit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Doa Waktu Sakit"
+            android:gravity="left"
+            android:background="#b7b9f7"
+            android:textSize="9pt"
+            android:textStyle="normal"/>
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

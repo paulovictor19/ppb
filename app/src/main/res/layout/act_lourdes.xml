@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/indexbdamaria"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="604dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text=" NOVENA KEPADA BUNDA MARIA LOURDES \n
+              Novena ini untuk menghormati Bunda Maria Lourdes, sebagai persiapan untuk menyambut Pesta Bunda Maria Lourdes.
+Pada pagi hari Kamis 11 FEBRUARI 1858, Perawan Tak Bernoda Maria menampakkan diri untuk pertama kalinya kepada Bernadette Soubirous. Peristiwa itu terjadi di gua di Massabielle (di Lourdes) di Perancis.
+Didampingi kakak dan temannya, Bernadette pergi ke Massabielle di tepi sungai Gave untuk mengumpulkan ranting dan kayu kering. Saat melepaskan kaus kakinya untuk menyeberangi sungai, ia mendengar suara seperti hembusan angin, dia melihat ke arah gua: Aku MELIHAT SEORANG WANITA BERPAKAIAN PUTIH, DIA MENGENAKAN JUBAH PUTIH, BERKERUDUNG PUTIH, BERIKAT PINGGANG BIRU DAN BUNGA MAWAR KUNING DI SETIAP. KAKINYA Bernadette membuat Tanda Salib dan berdoa Rosario dengan wanita itu. Ketika doa berakhir tiba-tiba Wanita itu menghilang."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+</ScrollView>

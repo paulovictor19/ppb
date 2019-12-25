@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/slm"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="455dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text="  (Kamis) \n a.   Yesus dibaptis di Sungai Yordan\n
+b.   Yesus menyatakan diriNya dalam pesta pernikahan di Kana\n
+c.   Yesus memberitakan Kerajaan Allah menyerukan pertobatan\n
+d.   Yesus menampakkan kemuliaanNya\n
+e.   Yesus menetapkan Ekaristi
+Tata Cara Berdoa Rosario :
+o   Aku percaya
+o   Kemuliaan
+o   Bapa kami
+o   Salam, Puteri Allah Bapa-Salam Maria
+o   Salam, Bunda Allah Putera-Salam Maria
+o   Salam, mempelai Allah Roh Kudus–Salam Maria
+o   Kemuliaan
+o Terpujilah keluarga kudus Yesus, Maria dan Yoseph. Sampai selama-lamanya.
+o   Ya Yesus yang baik, ampunilah segala dosa kami lindungilah kami dari api neraka dan hantarlah segala jiwa ke dalam
+Surga terlebih jiwa yang sangat memerlukan kesayanganMu.
+o   Marilah kita mendoakan Peristiwa-peristiwa (lihat di atas: peristiwa-peristiwa Rosario, sesuaikan dengan harinya masing2)"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+</ScrollView>

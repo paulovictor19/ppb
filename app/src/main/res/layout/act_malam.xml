@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:layout_width="387dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/terso"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="355dp"
+            android:justificationMode="inter_word"
+            android:padding="25sp"
+            android:paddingTop="6dp"
+            android:text=" DOA MALAM\nSebelum tidur kita harus lebih dahulu mengucapkan doa.Untuk segala hasil yang telah diperoleh, dan juga untuk kegagalan yang dialami, kita harus berterima kasih kepada Tuhan. Tiap hari yang telah lalu mempunyai arti yang besar bagi hidup kita.Ya Tuhanku dan Allahku, aku berlutut di hadapanMu dan bersembah sujud kepadamu, Raja tertinggi. Aku mengucapkan syukur kepadaMu atas segala kemurahan, terlebih atas pemeliharaanMu pada hari yang lalu.Datanglah hai Roh Kudus terangilah budiku supaya aku mengetahui dosa-dosaku, dan berilah aku rahmatMu, supaya aku dapat menyesal sungguh atas dosa-dosaku itu."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <ImageButton
+            android:layout_width="387dp"
+            android:layout_height="143dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/maria"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="355dp"
+            android:justificationMode="inter_word"
+            android:padding="25sp"
+            android:paddingTop="6dp"
+            android:text=" Doa katolik sebelum tidur lengkap\nSelamat malam Yesus Maha Baik. Aku bersyukur atas segala karunia-Mu yang  sudah dicurahkan kepada kami. Sudah mendampingi hari-hariku ini. Sekarang, aku akan istirahat tidur ya Tuhan. Fisik dan jiwaku semoga besok bisa segar kembali setelah bangun tidur. Sehingga bisa melakukanaktivitas lagi dan memuliakan nama-Mu. Demi Yesus Kristus Tuhan kami. Amin.."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

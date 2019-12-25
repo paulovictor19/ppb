@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/indexmd"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="641dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text="MEDAILA WASIAT \n Santa Katarina adalah seorang kudus yang diberkati penampakan Bunda Maria yang Dikandung Tanpa Dosa dan menyebarkan devosi Medali Ajaib atau medali Wasiat. Ia, seorang suster yang amat sederhana namun saleh, sangat rajin dan penuh pengabdian. Sepanjang hidupnya ia tidak pernah belajar membaca dan menulis, namun Allah berkenan menjadikannya sebagai alatNya.\n
+atarina dilahirkan dengan nama Zoe Laboure pada tanggal 2 Mei 1806 di Fain-les-Moutiers, Perancis. Ia adalah anak kesembilan dari sebelas orang putra putri keluarga Pierre dan Louise Laboure. Kesebelas anak itu terdiri dari delapan orang putra dan tiga orang putri. Pierre Laboure seorang terpelajar yang menjadi petani yang sukses. Ketika Zoe berusia sembilan tahun, ibunya meninggal dunia. Zoe sangat sedih kehilangan ibunya, ia masuk ke kamarnya, berlutut di bawah patung St. Perawan Maria dan berdoa, “Bunda Maria, sekarang engkaulah ibuku.”"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+</ScrollView>

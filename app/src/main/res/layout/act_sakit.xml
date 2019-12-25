@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:background="@drawable/imagessakit"
+            android:layout_width="379dp"
+            android:layout_height="178dp"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="334dp"
+            android:layout_height="443dp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:paddingTop="6dp"
+            android:text=" Doa waktu sakit\n Tuhan Yesus, Engkau memahami segala penderitaan sebab Engkau telah mengalami penderitaan yang paling berat. Dan tatkala di taman Zaitun Engkau sungguh orang yang paling kesepian dari semua orang yang kesepian.Pada saat ini aku pun menjadi orang yang tidak berdaya. Badanku lemah, tak dapat tidur.\nHari-hariku terasa panjang dan membosankan. Aku terkurung saja di ruangan ini, tubuhku tak dapat kugerakkan, aku terpaku pada ranjang derita ini. Sementara
+sesamaku yang sehat dengan lincah mengayunkan langkahnya, dan senyum gembira menghias wajahnya.\n.dalam benakku bermunculan pengalaman-pengalaman yang telah lewat, yang kuundang dengan sengaja: kegembiraan, hiburan, kesenangan, dan macam-macam peristiwa yang membuat aku bahagia.Alangkah bahagianya menikmati keadaan yang segar bugar."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>

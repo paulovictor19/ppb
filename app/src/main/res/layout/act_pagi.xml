@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/green"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/textView"
+            android:layout_width="323dp"
+            android:layout_height="216dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ter"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="355dp"
+            android:layout_height="355dp"
+            android:justificationMode="inter_word"
+            android:padding="25sp"
+            android:paddingTop="9dp"
+            android:text=" DOA PAGI\nAllah  Bapa, kami berterima kasih kepadaMu karena hari yang baru ini. berilah kami iman yang hidup, harapan yang kuat, dan cinta yang ikhlas. Semoga segala perkataan yang akan kami ucapkan hari ini, dan segala perbuatan kami, menyenangkan hatimu.Bimbinglah kami dengan RohMu, agar dalam segala tingkah laku kami semakin serupa dengan Yesus Kristus PuteraMu.Berkatilah keluarga kami dan semua orang yang kami jumpai hari ini. semoga dalam pergaulan dengan mereka kami menunjukkan kebaikan, seperti Engkau baik hati bagi semua orang. Kami akan berusaha menerima suka dan duka dengan hati yang tabah.Santa Maria, Bunda Yesus, jagailah kami anakmu. Kemuliaan kepada Bapa dan Putera dan Roh Kudus. Amin.."
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="97dp"
+            android:background="@drawable/rosa"/>
+
+        <TextView
+            android:layout_width="347dp"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:padding="25sp"
+            android:paddingTop="9dp"
+            android:text="Doa pagi bersama Yesus dan Bunda Maria\n
+Ya Yesus, melalui hati Bunda-Mu tersuci, aku persembahkan kepada-Mu segala doa dan permohonanku. Semua pekerjaan, kegembiraan, dan kesusahanku hari ini, kuserahkan dalam kemuliaan nama-Mu.
+Tuntunlah aku dan bimbinglah aku, jauhkan aku dari segala marah bahaya, dan peganglah tanganku hingga hari ini aku melangkah bersama-Mu. Dan semoga berkat dan dan rahmat-Mu selalu menyertaiku selama-lamanya. Amin
+Bapa kami...salam maria...3 kali...terpujilah"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kembali"/>
+    </LinearLayout>
+
+</ScrollView>
